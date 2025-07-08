@@ -28,8 +28,11 @@ mvn spring-boot:run
 
 ## How to test
 
-There is a [Swagger UI](http://localhost:8080/swagger-ui/index.html) available.
+You have a few options:
+1. **Configure the MCP Server in your VSCode environment**
+  See [mcp.json](.vscode/mcp.json) for a ready-to-use example - you configure the URL for your MCP server.
+2. Use postman - new Postman include support for inspecting your MCP servers
 
 # References
-- [Spring AI - Begineer to Guru](https://www.udemy.com/course/spring-ai-beginner-to-guru) has been my initial reference
 - [Understand SSE MCP SERVER with Spring Boot and Spring AI | Beginner Tutorial](https://www.youtube.com/watch?v=n5DG0uClbdo) this is a great reference for both building your MCP server ground up or troubleshooting your own!
+- [Spring AI - Begineer to Guru](https://www.udemy.com/course/spring-ai-beginner-to-guru) has been my initial reference

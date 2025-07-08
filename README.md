@@ -1,4 +1,4 @@
-# Spring-AI kata (mcp sERVER)
+# Spring-AI kata (MCP Server))
 
 This is my sandbox for experimenting with MCP servers using Spring Boot and [MCP](https://modelcontextprotocol.io/introduction) integration.
 

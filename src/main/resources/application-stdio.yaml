@@ -1,0 +1,12 @@
+spring:
+    main:
+        # STDIO application type are not web applications
+        web-application-type: none
+        # and the banner must be disabled to make it work
+        banner-mode: off
+# Logging must also be disabled to avoid issues with the MCP server
+logging:
+    pattern:
+        console: 
+    file:
+        name: "./target/springai-kata-mcp-stdio-server.log"
